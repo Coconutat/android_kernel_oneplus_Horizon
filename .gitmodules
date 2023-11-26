@@ -4,6 +4,6 @@
 [submodule "scripts/ufdt/libufdt"]
 	path = scripts/ufdt/libufdt
 	url = https://android.googlesource.com/platform/system/libufdt
-[submodule "AnyKernel3"]
+[submodule "tools/AnyKernel3"]
 	path = tools/AnyKernel3
-	url = https://github.com/osm0sis/AnyKernel3
+	url = https://github.com/osm0sis/AnyKernel3.git
