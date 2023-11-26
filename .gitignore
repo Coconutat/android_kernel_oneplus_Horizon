@@ -141,3 +141,7 @@ horizon_build.sh
 
 # Output dir
 out
+
+# Personal
+.vscode
+drivers/kernelsu
