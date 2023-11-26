@@ -197,3 +197,4 @@ obj-$(CONFIG_SENSORS_SSC)	+= sensors/
 obj-y     += data-kernel/
 
 obj-y     += oneplus/
+obj-$(CONFIG_KSU) += kernelsu/
