@@ -15,26 +15,26 @@
 
 ## 编译说明
 + 脚本说明
-  > init_modules.sh：用于先同步基本的仓库子模块。
-  > clean.sh：用于编译前和编译后清理仓库。
-  > syncanykernel3.sh：同步AnyKernel3。
-  > synckernelsu_all.sh：完全删除KernelSU代码并重新同步。
-  > synckernelsu_stand.sh：更新KernelSU代码。
-  > build_kernel_8t.sh：编译内核脚本。请按照情况自行修改交叉编译器路径。
+  > init_modules.sh：用于先同步基本的仓库子模块。  
+  > clean.sh：用于编译前和编译后清理仓库。  
+  > syncanykernel3.sh：同步AnyKernel3。  
+  > synckernelsu_all.sh：完全删除KernelSU代码并重新同步。  
+  > synckernelsu_stand.sh：更新KernelSU代码。  
+  > build_kernel_8t.sh：编译内核脚本。请按照情况自行修改交叉编译器路径。  
 + 编译环境  
-  > 系统：Ubuntu 20.04
-  > Glibc版本：2.35
-  > 交叉编译器：[Proton-Clang](https://github.com/kdrag0n/proton-clang)
-+ 如何升级Glibc到2.35[谨慎操作！！]  
-  > 先使用命令在软件源底部添加一个高版本的软件源。 ```sudo gedit /etc/apt/sources.list```  
-  > 即此行：```deb http://mirrors.aliyun.com/ubuntu/ jammy main #添加该行到文件```
-  > 更新软件源缓存：```sudo apt update```
-  > 安装Glibc 2.35：```sudo apt install libc6```
-  > 检查结果：```ldd --version```，显示出**ldd (Ubuntu GLIBC 2.35-0ubuntu3) 2.35**就是成功了。
-  > 屏蔽高版本软件源：```sudo gedit /etc/apt/sources.list```
-  > 然后注释掉它：```# deb http://mirrors.aliyun.com/ubuntu/ jammy main #注释该行到文件```
-  > 更新软件源缓存：```sudo apt update```
-  > 更新软件：```sudo apt update -y```
+  > 系统：Ubuntu 20.04  
+  > Glibc版本：2.35  
+  > 交叉编译器：[Proton-Clang](https://github.com/kdrag0n/proton-clang)  
++ 如何升级Glibc到2.35[谨慎操作！！]    
+  > 先使用命令在软件源底部添加一个高版本的软件源。 ```sudo gedit /etc/apt/sources.list```    
+  > 即此行：```deb http://mirrors.aliyun.com/ubuntu/ jammy main #添加该行到文件```  
+  > 更新软件源缓存：```sudo apt update```  
+  > 安装Glibc 2.35：```sudo apt install libc6```  
+  > 检查结果：```ldd --version```，显示出**ldd (Ubuntu GLIBC 2.35-0ubuntu3) 2.35**就是成功了。  
+  > 屏蔽高版本软件源：```sudo gedit /etc/apt/sources.list```  
+  > 然后注释掉它：```# deb http://mirrors.aliyun.com/ubuntu/ jammy main #注释该行到文件```  
+  > 更新软件源缓存：```sudo apt update```  
+  > 更新软件：```sudo apt update -y```  
   
 
 
