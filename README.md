@@ -22,6 +22,11 @@
   > synckernelsu_stand.sh：更新KernelSU代码。  
   > build_kernel_8t.sh：编译内核脚本。请按照情况自行修改交叉编译器路径。  
 + 编译环境  
+  > 系统：Ubuntu 22.04  
+  > Glibc版本：2.35  
+
+***
++ 旧编译环境简介(可忽略) 
   > 系统：Ubuntu 20.04  
   > Glibc版本：2.35  
   > 交叉编译器：[Proton-Clang](https://github.com/kdrag0n/proton-clang)  
@@ -35,18 +40,25 @@
   > 然后注释掉它：```# deb http://mirrors.aliyun.com/ubuntu/ jammy main #注释该行到文件```  
   > 更新软件源缓存：```sudo apt update```  
   > 更新软件：```sudo apt update -y```  
+
+***
   
-
-
+***
+    
 ## 修改日志
 
-2023.11.26：  
+2023.11.26:  
  > v1.0 Alpha
  > 1. 添加KernelSU支持。
  > 2. 增加submodules。
  > 3. 添加方便编译和调试的脚本。
   
-2023.11.27：  
+2023.11.27:  
 > v1.0 Beta
 > 1. 上游内核到v4.19.160  
 > 2. 切换编译器为[Proton-Clang](https://github.com/kdrag0n/proton-clang),适配Ubuntu 20.04。  
+
+2023.12.20:
+ > v1.0 RC
+ > 1. 为保持稳定，切换Ubuntu为22.04
+ > 2. 同步上游KernelSU代码
