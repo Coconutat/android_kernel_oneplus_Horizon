@@ -62,3 +62,4 @@
  > v1.0 RC
  > 1. 为保持稳定，切换Ubuntu为22.04
  > 2. 同步上游KernelSU代码
+ > 3. 切换编译器为[Zyc_Clang_16](https://github.com/ZyCromerZ/Clang/releases/tag/16.0.6-20231003-release)。
