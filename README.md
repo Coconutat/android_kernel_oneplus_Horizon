@@ -62,4 +62,6 @@
  > v1.0 RC
  > 1. 为保持稳定，切换Ubuntu为22.04
  > 2. 同步上游KernelSU代码
- > 3. 切换编译器为[Zyc_Clang_16](https://github.com/ZyCromerZ/Clang/releases/tag/16.0.6-20231003-release)。
+ > 3. 切换编译器为[Horizon_Clang_16.0.6](https://storage.xzr.moe/horizon-clang/Horizon-Clang-16.0.6.tar.xz)。
+ >    可选编译器为[Zyc_Clang_16](https://github.com/ZyCromerZ/Clang/releases/tag/16.0.6-20231003-release)。
+ >    可选编译器为[Proton-Clang](https://github.com/kdrag0n/proton-clang)
