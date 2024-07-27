@@ -52,9 +52,11 @@ if [ -f out/arch/arm64/boot/Image.gz ]; then
 	rm -rf tools/AnyKernel3/Image.gz
 	echo "***Sucessfully built kernel...***"
 	echo " "
+	git reset --hard
 	exit 0
 else
 	echo " "
+	git reset --hard
 	echo "***Failed!***"
 	exit 0
 fi
