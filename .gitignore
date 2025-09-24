@@ -148,3 +148,4 @@ out
 .vscode
 drivers/kernelsu
 kernel_log-*.txt
+KernelSU
