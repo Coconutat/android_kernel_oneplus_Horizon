@@ -144,6 +144,10 @@ horizon_build.sh
 # Output dir
 out
 
+# Misc
+scripts/dtc-aosp/*
+tools/AnyKernel3
+
 # Personal
 .vscode
 drivers/kernelsu
